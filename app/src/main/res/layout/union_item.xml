@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="@dimen/main_union_item_vertical_margin"
+    android:layout_marginBottom="@dimen/main_union_item_vertical_margin">
+
+    <TextView
+        android:id="@+id/id_in_circle"
+        android:layout_width="@dimen/id_in_circle_dimensions"
+        android:layout_height="@dimen/id_in_circle_dimensions"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/id_in_circle_horizontal_margin"
+        android:background="@drawable/id_circle"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/id_in_circle_text_size"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/union_title_and_body_container_horizontal_margin"
+        android:layout_marginEnd="@dimen/union_title_and_body_container_horizontal_margin"
+        android:layout_marginTop="@dimen/union_title_and_body_container_vertical_margin"
+        android:layout_marginBottom="@dimen/union_title_and_body_container_vertical_margin"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/union_title_text_size" />
+
+        <TextView
+            android:id="@+id/link_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/union_body_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingEnd="@dimen/main_activity_vertical_margin"
+    android:paddingLeft="@dimen/main_activity_horizontal_margin"
+    android:paddingRight="@dimen/main_activity_horizontal_margin"
+    android:paddingStart="@dimen/main_activity_vertical_margin"
+    tools:context="pavelnovak.com.omertex.view.impl.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/union_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/oopsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+    <ProgressBar
+        android:id="@+id/loading_spinner_main"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_activity_horizontal_margin">4dp</dimen>
+    <dimen name="main_activity_vertical_margin">4dp</dimen>
+
+    <dimen name="main_union_item_vertical_margin">5dp</dimen>
+
+    <dimen name="id_in_circle_dimensions">36dp</dimen>
+    <dimen name="id_in_circle_horizontal_margin">10dp</dimen>
+    <dimen name="id_in_circle_text_size">16sp</dimen>
+
+    <dimen name="union_title_and_body_container_vertical_margin">14dp</dimen>
+    <dimen name="union_title_and_body_container_horizontal_margin">7dp</dimen>
+
+    <dimen name="union_title_text_size">18sp</dimen>
+
+    <dimen name="union_body_text_size">14sp</dimen>
+</resources>
